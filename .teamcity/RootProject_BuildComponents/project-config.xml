@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="RootProject" uuid="f92de79d-0064-422b-848c-d5b133b0093b" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
-  <name>Build components</name>
-  <parameters />
-  <cleanup />
-  <buildTypesOrder order="RootProject_BuildComponents_GetLatest,RootProject_BuildComponents_App01,RootProject_BuildComponents_App02,RootProject_BuildComponents_App03" />
-</project>
-
