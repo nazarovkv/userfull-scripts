@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="e95e17df-2aea-4258-8dd9-df2670066889" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>GetLatest</name>
+  <description />
+  <settings>
+    <options>
+      <option name="checkoutDirectory" value="git-repos" />
+      <option name="checkoutMode" value="ON_SERVER" />
+      <option name="showDependenciesChanges" value="true" />
+    </options>
+    <parameters />
+    <build-runners />
+    <vcs-settings>
+      <vcs-entry-ref root-id="RootProject_UsefullScripts">
+        <checkout-rule rule="+:. =&gt; git1" />
+      </vcs-entry-ref>
+      <vcs-entry-ref root-id="RootProject_UsefullScripts02">
+        <checkout-rule rule="+:. =&gt; git2" />
+      </vcs-entry-ref>
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+

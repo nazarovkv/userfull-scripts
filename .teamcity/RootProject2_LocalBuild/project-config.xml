@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="RootProject2" uuid="62e2721b-194f-4031-b371-cdd2f2bea90d" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Local Build</name>
+  <parameters />
+  <cleanup />
+</project>
+

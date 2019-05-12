@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="aaa3a6b2-5c67-4245-b9cf-fbf84edc6819" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>Second Root Project</name>
+  <parameters />
+  <cleanup />
+</project>
+

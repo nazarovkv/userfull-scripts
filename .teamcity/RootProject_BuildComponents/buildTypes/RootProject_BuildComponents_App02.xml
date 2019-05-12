@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="c361cea3-70c4-4857-9c67-cd65be07b3df" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
+  <name>App 02 (Test_TC02)</name>
+  <description />
+  <settings>
+    <options>
+      <option name="checkoutDirectory" value="%checkout.dir.common%" />
+      <option name="checkoutMode" value="ON_SERVER" />
+    </options>
+    <parameters />
+    <build-runners />
+    <vcs-settings>
+      <vcs-entry-ref root-id="RootProject_UsefullScripts02">
+        <checkout-rule rule="+:=&gt;app01" />
+      </vcs-entry-ref>
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
