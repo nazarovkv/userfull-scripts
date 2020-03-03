@@ -1,0 +1,15 @@
+[Unit]
+Description=tomcat9-01
+After=network.target
+
+[Service]
+Type=forking
+WorkingDirectory=/u01/tomcat
+ExecStart=/u01/tomcat/bin/catalina.sh start
+ExecStop=/u01/tomcat/bin/catalina.sh stop
+Restart=always
+User=tomcat
+Group=tomcat
+
+[Install]
+WantedBy=multi-user.target
